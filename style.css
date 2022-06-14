@@ -107,3 +107,24 @@ h2 {
   cursor: pointer;
 }
 
+/* Testimonials Section */
+.testimonials {
+  height: 400px;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.testimonials .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  height: 60%;
+  text-align: center;
+}
+
