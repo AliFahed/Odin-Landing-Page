@@ -28,3 +28,37 @@ h2 {
   margin: 0 auto;
   padding: 0 30px;
 }
+
+/* Navbar Section */
+.navbar {
+  height: 70px;
+  background: #1F2937;
+  color: #fff;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #fff;
+}
