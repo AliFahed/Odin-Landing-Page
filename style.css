@@ -128,3 +128,26 @@ h2 {
   text-align: center;
 }
 
+/* Quote Section */
+.quote {
+  background: #E5E7EB;
+  height: 400px;
+  display: flex;
+}
+
+.quote .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 850px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  color: #1F2937;
+}
+
+figcaption {
+  text-align: right;
+  font-weight: bold;
+  color: #000;
+}
