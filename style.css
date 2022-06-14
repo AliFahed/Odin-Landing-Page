@@ -151,3 +151,14 @@ figcaption {
   font-weight: bold;
   color: #000;
 }
+
+/* Footer */
+.footer {
+  background: #1F2937;
+  font-size: 20px;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
