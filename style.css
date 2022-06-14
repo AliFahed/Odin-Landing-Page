@@ -152,6 +152,46 @@ figcaption {
   color: #000;
 }
 
+/* Signup Section */
+.signup {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3882F6;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  padding: 50px 120px;
+}
+
+.signup-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-button {
+  margin-left: 100px;
+  background: #3882F6;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 8px 28px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background: #fff;
+  color: #3882F6;
+}
+
 /* Footer */
 .footer {
   background: #1F2937;
